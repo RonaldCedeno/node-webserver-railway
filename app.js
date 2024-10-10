@@ -21,21 +21,21 @@ app.use(express.static("public"));
 app.get("/", function (req, res) {
   res.render("home", {
     nombre: "Ronald",
-    titulo: "Curso de Node",
+    titulo: "Node",
   });
 });
 
 app.get("/generic", (req, res) => {
   res.render("generic", {
     nombre: "Ronald",
-    titulo: "Curso de Node",
+    titulo: "Node",
   });
 });
 
 app.get("/elements", (req, res) => {
   res.render("elements", {
     nombre: "Ronald",
-    titulo: "Curso de Node",
+    titulo: "Node",
   });
 });
 
